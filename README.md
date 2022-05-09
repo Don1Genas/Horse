@@ -9,3 +9,9 @@ This is a wireframe of the layout I intend to have on my game of HORSE.
 
 
 ### Approach Taken
+
+
+### Unsolved Problems
+
+
+## Instructions on HOW TO PLAY
