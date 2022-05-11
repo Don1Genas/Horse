@@ -3,8 +3,92 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    
+    grid-template-areas: "pl1  pl1  pl1  pl1  mt1  gameT gameT gameT gameT gameT gameT  mt2  pl2  pl2  pl2  pl2"
+                         "pl1  pl1  pl1  pl1  mt1  gameT gameT gameT gameT gameT gameT  mt2  pl2  pl2  pl2  pl2"
+                         "mt3  mt3  mt3  mt3  mt3  gameT gameT gameT gameT gameT gameT  mt4  mt4  mt4  mt4  mt4"
+                         "mt3  mt3  mt3  mt3  mt3   mt5   mt5   mt5   mt5   mt5   mt5   mt4  mt4  mt4  mt4  mt4"
+                         "hs1  os1  rs1  ss1  es1   mt6   hPic  hPic  hPic  hPic  mt7   hs2  os2  rs2  ss2  es2"
+                         "mt8  mt8  mt8  mt8  mt8   mt6   hPic  hPic  hPic  hPic  mt7   mt9  mt9  mt9  mt9  mt9"
+                         "wL1  wL1  wL1  wL1  mt10  mt6   hPic  hPic  hPic  hPic  mt7   mt11 wL2  wL2  wL2  wL2"
+                         "wL1  wL1  wL1  wL1  mt10  mt6   hPic  hPic  hPic  hPic  mt7   mt11 wL2  wL2  wL2  wL2"
+                         "mt12 mt12 mt12 mt12 mt10  mt6   hPic  hPic  hPic  hPic  mt7   mt11 mt13 mt13 mt13 mt13"
+                         "mt12 mt12 mt12 mt12 mt10  mt6   hPic  hPic  hPic  hPic  mt7   mt11 mt13 mt13 mt13 mt13"
+                         "mt12 mt12 mt12 mt12 mt10  mt6   mt14  mt14  mt14  mt14  mt7   mt11 mt13 mt13 mt13 mt13"
+                         "mt12 mt12 mt12 mt12 shot  shot  shot  shot  shot  shot  shot  shot mt16 mt16 mt16 mt16"
+                         "coin coin mt15 mt15 shot  shot  shot  shot  shot  shot  shot  shot mt16 mt16 mt16 mt16"
+                         "coin coin mt15 mt15 shot  shot  shot  shot  shot  shot  shot  shot mt16 mt16 mt16 mt16"
+                         "mt17 mt17 mt17 mt17 shot  shot  shot  shot  shot  shot  shot  shot mt16 mt16 mt16 mt16"
+                         "mt17 mt17 mt17 mt17 shot  shot  shot  shot  shot  shot  shot  shot mt16 mt16 mt16 mt16"
+                         "mt17 mt17 mt17 mt17 shot  shot  shot  shot  shot  shot  shot  shot mt16 mt16 mt16 mt16"
+                         "sBtn sBtn mt18 mt18 shot  shot  shot  shot  shot  shot  shot  shot mt19 mt19 play play"
+                         "sBtn sBtn mt18 mt18 shot  shot  shot  shot  shot  shot  shot  shot mt19 mt19 play play"
+                         "mt20 mt20 mt20 mt20 shot  shot  shot  shot  shot  shot  shot  shot mt21 mt21 mt21 mt21"
+
+
+
+    ;
+
 }
 .child {
     border: 1px solid red;
+}
+#playerOne {
+    grid-area: pl1;
+}
+#gameTitle {
+    grid-area: gameT;
+}
+#playerTwo {
+    grid-area: pl2;
+}
+#hSpot1 {
+    grid-area: hs1;
+}
+#oSpot1 {
+    grid-area: os1;
+}
+#rSpot1 {
+    grid-area: rs1;
+}
+#sSpot1 {
+    grid-area: ss1;
+}
+#eSpot1 {
+    grid-area: es1;
+}
+#horsePic {
+    grid-area: hPic;
+}
+#hSpot2 {
+    grid-area: hs2;
+}
+#oSpot2 {
+    grid-area: os2;
+}
+#rSpot2 {
+    grid-area: rs2;
+}
+#sSpot2 {
+    grid-area: ss2;
+}
+#eSpot2 {
+    grid-area: es2;
+}
+#winLose1 {
+    grid-area: wL1;
+}
+#winLose2 {
+    grid-area: wL2;
+}
+#coinFlip {
+    grid-area: coin;
+}
+#gameShot {
+    grid-area: shot;
+}
+#shotBtn {
+    grid-area: sBtn;
+}
+#playAgainBtn {
+    grid-area: play;
 }
