@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="bodyContainer">
+        
         <div class="child" id="playerOne">
             <h1>PLAYER 1</h1>
         </div>
@@ -28,7 +29,17 @@
         <div class="child" id="eSpot2">14</div>
         <div class="child" id="winLose1">15</div>
         <div class="child" id="winLose2">16</div>
-        <div class="child" id="coinFlip">17</div>
+        <div class="child" id="coinFlip">
+            <div id="coin">
+                <div class="heads">
+                    <img src="./Images/coin_flip_heads.jpeg" alt="image of coin's head">
+                </div>
+                <div class="tails">
+                    <img src="./Images/coin_flip_tails.jpeg" alt="image of coin's tails">
+                </div>
+            </div>
+            <button onclick="toss()">Toss the coin</button>
+        </div>
         <div class="child" id="gameShot">18</div>
         <div class="child" id="shotBtn">19</div>
         <div class="child" id="playAgainBtn">20</div>
