@@ -5,6 +5,8 @@
     width: 100vw;
     height: 100vh;
     display: grid;
+    position: fixed;
+
     grid-template-areas: "mt21 mt21 mt21 mt21 mt21  mt21  mt21  mt21  mt21  mt21  mt21  mt21 mt21 mt21 mt21 mt21"
                          "pl1  pl1  pl1  pl1  mt1  gameT gameT gameT gameT gameT gameT  mt2  pl2  pl2  pl2  pl2"
                          "mt3  mt3  mt3  mt3  mt3  gameT gameT gameT gameT gameT gameT  mt4  mt4  mt4  mt4  mt4"
@@ -83,14 +85,18 @@
     grid-area: wL2;
 }
 #coinFlip {
-    grid-area: coin;
+   grid-area: coin;
     display: flex;
     flex-direction: column;
-    height: 10vh;
-    width: 15vw;
+    height: 120px;
+    width: 150px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    /* position: fixed; */
+   
+}
+#coinFlip, button{
+    /* align-items: baseline; */
 }
 #coin {
     height: 50px;
@@ -100,7 +106,9 @@
     transform-style: preserve-3d;
 }
 #coin img {
-    width: 70px;
+    width: 120px;
+    position: relative;
+    
 }
 .tails {
     transform: rotateX(180deg);
