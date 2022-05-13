@@ -1,3 +1,5 @@
+
+
 .bodyContainer {
     border: 1px solid black;
     background-image: url(./Images/background_Court1.jpeg);
@@ -71,6 +73,8 @@
 }
 #horsePic {
     grid-area: hPic;
+    background: url(./Images/picture-of-horse.jpeg
+    );
 }
 #hSpot2 {
     grid-area: hs2;
@@ -106,7 +110,6 @@
 }
 #coinFlip_Btn {
     padding-top: 80px;
-    background-color: aquamarine;
     
     width: 120px;
 }
@@ -160,7 +163,7 @@
 }
 #shotBtn {
     grid-area: sBtn;
-    
+
 }
 #playAgainBtn {
     grid-area: play;
