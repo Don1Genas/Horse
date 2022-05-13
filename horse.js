@@ -11,3 +11,4 @@ function toss() {
       //alert ("Player 2 goes first!")
     }
   }
+  

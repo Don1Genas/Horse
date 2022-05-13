@@ -12,7 +12,7 @@ This is a wireframe of the layout I intend to have on my game of HORSE.
 2. Then there will be a coin flip to see who goes first. (Heads win)
 3. Player will have a choice of shot(s) to take from a drop down box.
 ..* choices are: **Dunk_** (windmill, 360 degree, under the leg), 
-     **jumpshot_** (random array), **Trick_** shot (back to basket)
+     **jumpshot_** (random array), **Trick shot_** (back to basket)
 **Dunks and jumpshots have a 33% chance of being made, trick shots have a 25% chance**
 4. If a shot is made followed by a miss by the opponent, the opponent gets a letter...starting with H and the O, etc. the first player to spell HORSE, loses.
 5. A winner will be declared and a prompt will be given asking if the player would like to play again.

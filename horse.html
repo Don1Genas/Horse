@@ -12,10 +12,12 @@
     <div class="bodyContainer">
         
         <div class="child" id="playerOne">
-            <h1>PLAYER 1</h1>
+            <!-- <img src="./Images/player-1-game-decal.jpeg" alt="player one"> -->
         </div>
         <div class="child" id="gameTitle">2</div>
-        <div class="child" id="playerTwo">3</div>
+        <div class="child" id="playerTwo">
+            <!-- <img src="./Images/player-2-game-decals.webp" alt="player two"> -->
+        </div>
         <div class="child" id="hSpot1">4</div>
         <div class="child" id="oSpot1">5</div>
         <div class="child" id="rSpot1">6</div>
@@ -38,10 +40,12 @@
                     <img src="./Images/coin_flip_tails.jpeg" alt="image of coin's tails">
                 </div>
             </div>
-            <button onclick="toss()">Toss the coin</button>
+            <button id="coinFlip_Btn" onclick="toss()">Toss the coin</button>
         </div>
         <div class="child" id="gameShot">18</div>
-        <div class="child" id="shotBtn">19</div>
+        <div class="child" id="shotBtn">
+            <button type="button" onclick="shoot()" id="shotButton"><h1>SHOOT</h1></button>
+        </div>
         <div class="child" id="playAgainBtn">20</div>
     </div>
     

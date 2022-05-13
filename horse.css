@@ -38,12 +38,21 @@
 }
 #playerOne {
     grid-area: pl1;
+    b
+    /* height: 100px; */
+    /* width: 500px; */
+}
+#playeOne, img {
+    height: 100px;
+    width: 500px;
 }
 #gameTitle {
     grid-area: gameT;
 }
 #playerTwo {
     grid-area: pl2;
+    /* height: 100px; */
+    /* width: 500px; */
 }
 #hSpot1 {
     grid-area: hs1;
@@ -88,16 +97,20 @@
    grid-area: coin;
     display: flex;
     flex-direction: column;
-    height: 120px;
-    width: 150px;
-    justify-content: center;
-    align-items: center;
+    height: 150px;
+    width: 120px;
+    /* justify-content: center; */
+    /* align-items: center; */
     /* position: fixed; */
    
 }
-#coinFlip, button{
-    /* align-items: baseline; */
+#coinFlip_Btn {
+    padding-top: 80px;
+    background-color: aquamarine;
+    
+    width: 120px;
 }
+
 #coin {
     height: 50px;
     width: 50px;
@@ -107,7 +120,11 @@
 }
 #coin img {
     width: 120px;
-    position: relative;
+    height: 120px;
+    position: absolute;
+    /* padding-top: 0px; */
+   justify-content: center;
+   align-items: center;
     
 }
 .tails {
@@ -138,9 +155,12 @@
   }
 #gameShot {
     grid-area: shot;
+    background-image: url(./Images/ball-and-basketball-court.jpeg);
+    
 }
 #shotBtn {
     grid-area: sBtn;
+    
 }
 #playAgainBtn {
     grid-area: play;
