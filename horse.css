@@ -40,7 +40,7 @@
 }
 #playerOne {
     grid-area: pl1;
-    b
+    
     /* height: 100px; */
     /* width: 500px; */
 }
@@ -73,8 +73,10 @@
 }
 #horsePic {
     grid-area: hPic;
-    background: url(./Images/picture-of-horse.jpeg
-    );
+    background: url(./Images/picture-of-horse.jpeg);
+    height: 400px;
+    width: 400px;
+    
 }
 #hSpot2 {
     grid-area: hs2;

@@ -1,3 +1,4 @@
+const { Image } = require("react-native-elements");
 
 //trigger coin toss
 function toss() {
@@ -10,4 +11,15 @@ function toss() {
     //   coin.style.animation = "flip-tails 3s forwards";
     alert ("Player 2 goes first!")
     }
+  }
+
+  //Choice of shots
+let dunk1 = document.getElementById("windmill");
+let dunk2 = document.getElementById("360");
+let dunk3 = document.getElementById("underleg");
+
+  let myDunks = [dunk1, dunk2, dunk3];
+  
+  function shoot() {
+        
   }
