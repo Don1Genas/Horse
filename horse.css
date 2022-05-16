@@ -10,7 +10,7 @@
     position: fixed;
 
     grid-template-areas: "mt21 mt21 mt21 mt21 mt21  mt21  mt21  mt21  mt21  mt21  mt21  mt21 mt21 mt21 mt21 mt21"
-                         "pl1  pl1  pl1  pl1  mt1  gameT gameT gameT gameT gameT gameT  mt2  pl2  pl2  pl2  pl2"
+                         "pl1  pl1  pl1  pl1  mt1  gameT gameT gameT gameT gameT gameT  mt2  com  com  com  com"
                          "mt3  mt3  mt3  mt3  mt3  gameT gameT gameT gameT gameT gameT  mt4  mt4  mt4  mt4  mt4"
                          "mt3  mt3  mt3  mt3  mt3   mt5   mt5   mt5   mt5   mt5   mt5   mt4  mt4  mt4  mt4  mt4"
                          "hs1  os1  rs1  ss1  es1   mt6   hPic  hPic  hPic  hPic  mt7   hs2  os2  rs2  ss2  es2"
@@ -51,8 +51,8 @@
 #gameTitle {
     grid-area: gameT;
 }
-#playerTwo {
-    grid-area: pl2;
+#computer {
+    grid-area: com;
     /* height: 100px; */
     /* width: 500px; */
 }

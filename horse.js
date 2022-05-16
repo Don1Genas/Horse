@@ -1,5 +1,9 @@
 const { Image } = require("react-native-elements");
 
+let player1 = "player1";
+let computer = "computer";
+
+
 //trigger coin toss
 function toss() {
     const coin = document.getElementById("coin");
@@ -24,7 +28,10 @@ function toss() {
         
 //   }
 
-let vidArray = new Array();
+
+let myDunkArray = ['#d1','#d2','#d3'];
+
+let randomDunkVid = myDunkArray[Math.floor(Math.random()*myDunkArray.length)];
 
 let outputDiv = document.getElementById('dunkVids');
 
@@ -35,10 +42,7 @@ function loadVid(gameShot){
     alert('selection working');
 
 }
-function vidOptions(url, title) {
-    this.url = url;
-    this.title = title;
-
-    this.getVid = function(){return this.url + this.title;}
+function vidOptions() {
+    
 
 }
