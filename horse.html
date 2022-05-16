@@ -37,18 +37,13 @@
         <div class="child" id="eSpot2">14</div>
         <div class="child" id="winLose1">
             <label for="shotSelection">Choose your shot:</label>
-            <select name="shotSelection" id="shotSelection">
-                <optgroup label="Dunks">
-                    <option value="windmill">Windmill</option>
-                    <option value="360">360</option>
-                    <option value="Underleg">Under the leg</option>
-                </optgroup>
-                <optgroup label="Jumpshot">
-                    <option value="jumpshot">Jumpshot</option>
-                </optgroup> 
-                <optgroup label="Trick Shot">
-                    <option value="trickshot">Trick Shot</option>
-                </optgroup>               
+            <select name="shotSelection" id="shotSelection" onchange="loadVid(this.form)">
+                <option value=" ">Select a type of shot</option> 
+                <option value="Dunk">Dunk</option> 
+                <option value="jumpShot">Jump Shot</option> 
+                <option value="trickShot">Trick Shot</option> 
+                
+            
             </select>
             
         </div>
@@ -65,11 +60,11 @@
             </div>
             <button type="button" id="coinFlip_Btn" onclick="toss()">Toss the coin</button>
         </div>
-        <div class="child" id="gameShot">18
-            <video id="dunkVids">
-                <source id="windmill" src="https://youtu.be/JL5TKvxOolc" type="video/mp4">
-                <source id="360" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.businessinsider.com%2Fvideo-every-successful-dunk-from-the-worst-dunk-contest-in-nba-history-2013-2&psig=AOvVaw1Dz4V-MWHIbosYLuhRG-pW&ust=1652553856148000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMjyn4OR3fcCFQAAAAAdAAAAABAQ" type="video/gif">
-                <source id="underleg" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnba-80s-90sgifs.tumblr.com%2Fpost%2F96350942368&psig=AOvVaw1753B-faN37yp3QPqFFcgu&ust=1652554136811000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDcxY-S3fcCFQAAAAAdAAAAABAI" type="video/gif">
+        <div class="child" id="gameShot">
+            <video id="dunkVids" width="500">
+                <source src="https://youtu.be/JL5TKvxOolc"/>
+                <source  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.businessinsider.com%2Fvideo-every-successful-dunk-from-the-worst-dunk-contest-in-nba-history-2013-2&psig=AOvVaw1Dz4V-MWHIbosYLuhRG-pW&ust=1652553856148000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMjyn4OR3fcCFQAAAAAdAAAAABAQ"/>
+                <source  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnba-80s-90sgifs.tumblr.com%2Fpost%2F96350942368&psig=AOvVaw1753B-faN37yp3QPqFFcgu&ust=1652554136811000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDcxY-S3fcCFQAAAAAdAAAAABAI"/>
             </video>
         </div>
         <div class="child" id="shotBtn">
